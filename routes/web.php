@@ -15,4 +15,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/', function () {
         return view('gallery');
     });
+    Route::get('upload', function () {
+        return view('upload');
+    });
+    
 });

@@ -3,12 +3,12 @@
         <img src="/images/toast.svg" class="logo">    
     </a>
     <ul>
-        <li>
+        <li class="{{request()->path()=='/' ? 'active' : ''}}">
             <a href="/">
                 Gallery
             </a>
         </li>
-        <li>
+        <li class="{{request()->path()=='upload' ? 'active' : ''}}">
             <a href="/upload">
                 Upload
             </a>
