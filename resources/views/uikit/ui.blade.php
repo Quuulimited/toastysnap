@@ -8,7 +8,9 @@
 <body class="{{auth()->guest() ? 'logged-out' : 'logged-in'}}">
     <main>
         <img src="/images/toast.svg"  alt="" class="bg">
-
+        @if(auth()->check())
+            @include('uikit.menu')
+        @endif
         @yield('content')
     </main>
     {!! cooker_resource('app.js') !!}
