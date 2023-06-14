@@ -5,7 +5,7 @@
     <title>{{config('app.name')}}</title>
     {!! cooker_resource('app.css') !!}
 </head>
-<body>
+<body class="{{auth()->guest() ? 'logged-out' : 'logged-in'}}">
     <main>
         @yield('content')
     </main>

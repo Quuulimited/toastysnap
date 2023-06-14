@@ -78,6 +78,9 @@ return [
                 */
             ],
             'input' => [
+                'uikit/color.less',
+                'uikit/font.less',
+                'uikit/auth.less',
                 'app.less'
             ],
             'output' => 'app.css',
