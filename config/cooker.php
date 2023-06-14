@@ -80,6 +80,7 @@ return [
             'input' => [
                 'uikit/color.less',
                 'uikit/font.less',
+                'uikit/ui.less',
                 'uikit/auth.less',
                 'app.less'
             ],
