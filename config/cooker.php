@@ -102,7 +102,6 @@ return [
                         'prod' => 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'
                     ]
                 */
-                'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'
             ],
             'input' => [
                 'app.js'

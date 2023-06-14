@@ -1,4 +1,5 @@
 {
     "packages": {
+        "jquery": "3.7.0"
     }
 }
