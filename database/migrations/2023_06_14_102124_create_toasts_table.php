@@ -16,6 +16,7 @@ return new class extends Migration
             $table->bigInteger('user_id')->unsigned();
             $table->string('image_url');
             $table->text('description');
+            $table->enum('privacy',['private','public'])->default('private');
             $table->timestamps();
         });
     }
