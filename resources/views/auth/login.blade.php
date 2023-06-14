@@ -1,7 +1,7 @@
 @extends('uikit.ui')
 @section('content')
+<img src="/images/toast.svg"  alt="" class="logged-out-bg">
 <div class="login-form">
-   
     <form method="POST" action="{{ route('login') }}">
         @csrf
 

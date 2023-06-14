@@ -4,7 +4,11 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 
-Auth::routes();
+Auth::routes([
+    'register' => false,
+    'reset' => false,
+    'verify' => false,
+]);
 
 
 Route::group(['middleware' => ['auth']], function () {
