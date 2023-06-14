@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('uikit.ui')
 
 @section('content')
 <div class="container">
