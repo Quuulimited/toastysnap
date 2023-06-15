@@ -9,7 +9,7 @@ If during this test you have any questions, please reach out to your contact at 
 
 ## Tasks to complete
 1. Fork this repo and ensure it's publically available. You'll work on this copy throughout the test
-2. Deploy, and setup the application to your local environment. Ensure the site can be accessed locally in PHP 8.2, Install composer packages, setup a database and run migrations, setup an Application key and read the [Cooker documentation](https://github.com/genericmilk/cooker) to get the frontend resources made available.
+2. Deploy, and setup the application to your local environment. Ensure the site can be accessed locally in PHP 8.2, Install composer packages, setup a database and run migrations, setup an Application key and read the [Cooker documentation](https://github.com/genericmilk/cooker) to get the frontend resources made available. (Tip: run php artisan cooker:install to deploy all packages and to build the frontend resources)
 3. Using artisan tinker, create a new user account.
 4. Login to your new user account
 5. Create some new Toast uploads in the `toasts` table. These should be a mixture of `public` and `private` toasts as we want to display some content in both the user's account and in the "Gallery". There is some high quality toast images in `/public/toast` for you to get started with, Reference these as absolute paths in the database, so that it doesn't matter what domain the site is running from later.
