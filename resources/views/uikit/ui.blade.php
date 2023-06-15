@@ -12,6 +12,9 @@
             @include('uikit.menu')
         @endif
         @yield('content')
+        @if(auth()->check())
+            @include('uikit.footer')
+        @endif
     </main>
     {!! cooker_resource('app.js') !!}
 </body>
