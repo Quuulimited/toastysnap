@@ -39,7 +39,7 @@ return [
     | compiling everything. This is useful for development but not for production.
     |
     */
-    'canSpeedyCook' => true,
+    'canSpeedyCook' => false,
 
     /*
     |--------------------------------------------------------------------------

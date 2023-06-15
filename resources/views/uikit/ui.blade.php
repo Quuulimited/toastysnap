@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>{{config('app.name')}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     {!! cooker_resource('app.css') !!}
 </head>
 <body class="{{auth()->guest() ? 'logged-out' : 'logged-in'}}">

@@ -13,6 +13,12 @@
                 Upload
             </a>
         </li>
+        <li class="{{request()->path()=='me' ? 'active' : ''}}">
+            <a href="/me">
+                {{auth()->user()?->name ?? 'My Account'}}
+            </a>
+        </li>
+        
         <li>
             <a href="/logout">
                 Logout
